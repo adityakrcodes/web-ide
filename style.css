@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body { margin:0; padding:0; height:100%; width:100%; overflow: hidden;}
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+.top_Bar{
+  background-color: #373832;
+  color: white;
+  height:5vh 5vmin;
+  text-align: center;
+  padding: 5px;
+  font-family: 'Share Tech Mono', monospace;
+  transform: scale(1.1);
+}
+
+.top_Bar > a{
+  text-decoration: none;
+  color: white;
+}
+
+.top_Bar > a:hover{
+  color: antiquewhite;
+}
+
+#container {
+	height:100% ;
+	width:auto;
+  white-space : nowrap; 
+  overflow : hidden;
+  position:relative;
+  background-color: #272822;
+}
+
+#editor {
+  height: 100%;
+  width:50%;
+  display:inline-block;
+}
+
+#iframe {
+	height:100%;
+	width:50%;
+	display:inline-block;
+  background-color:white;
+}
+.ace_editor .ace_marker-layer .ace_bracket { display: none }
